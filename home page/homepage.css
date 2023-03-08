@@ -1,0 +1,100 @@
+body {
+    border: 1px solid gray;
+    margin: 0 25%;
+    width: 768px;
+}
+
+@media (max-width:1200px),(min-width:568px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+ /* menu bar start */
+.head{
+  text-align: center; 
+  color: blue;
+  text-decoration: solid;
+  font-size: larger;
+  font-weight: 900;
+   
+} 
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: blue;
+  margin: 5px 0;
+}
+
+  .girl{
+    height: 50px;
+    width: 50;
+    border-radius: 50px;
+    border-color: blue;
+    border-style: outset;
+  }
+
+  .d-flex { 
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+  }
+ /* menu bar end */
+
+ /* home page start */
+  .bg {
+    background-color: blue;
+  }
+
+  .row{
+    justify-content: space-between;
+    margin: 5%;
+    padding: 5%;
+  }
+
+  .img1 {
+    border-radius: 10px;
+  }
+
+  .img2 {
+    border-radius: 10px;
+  }
+
+  .img3 {
+    border-radius: 10px;
+  }
+
+  .img4 {
+    border-radius: 10px;
+  }
+
+  .img5 {
+    border-radius: 10px;
+  }
+
+  .img6 {
+    border-radius: 10px;
+  }
+
+  .img7 {
+    border-radius: 10px;
+  }
+
+  .img8 {
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+ /* home page end */
+
+
+
+ html,body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
